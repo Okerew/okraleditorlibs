@@ -1,1 +1,1 @@
-console.log("Example extension loaded")
+console.log("Hello world from example_extension")
