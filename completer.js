@@ -1,4 +1,4 @@
-const lsp_server = prompt("Enter the url of your lsp server")
+const lsp_server = prompt("Enter the url of your lsp server", "https://0cb9e328-2f4a-4ad4-8a69-c62ff2499d06-00-3dajzijz7auzd.janeway.replit.dev:3000/")
 const socket = io(lsp_server);
 
 socket.on('connect', () => {
